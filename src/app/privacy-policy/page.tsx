@@ -10,7 +10,7 @@ function Privacy() {
 
 <p>Last updated: [Date]</p>
 
-<p>This Privacy Policy describes how [Your Website Name] ("we," "us," or "our") collects, uses, and shares personal information when you visit and interact with our website. Please review this policy carefully.</p>
+<p>This Privacy Policy describes how [Your Website Name] (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, and shares personal information when you visit and interact with our website. Please review this policy carefully.</p>
 
 <h3 className='font-bold font-serif text-2xl'>1. Information We Collect</h3>
     <p><span className='font-semibold'>Personal Information:</span> We may collect personal information, including but not limited to, your name, email address, postal address, and phone number when you provide it voluntarily.</p>
