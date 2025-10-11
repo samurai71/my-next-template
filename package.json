@@ -10,6 +10,7 @@
     "lint": "eslint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "lint-staged": "lint-staged",
     "prepare": "husky",
     "commitlint": "commitlint --edit"
   },
