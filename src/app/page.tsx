@@ -1,12 +1,13 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "@/components/mode-toogle";
+import Image from 'next/image'
+
+import { ModeToggle } from '@/components/mode-toogle'
+import { Button } from '@/components/ui/button'
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-sans sm:p-20">
       <ModeToggle />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="row-start-2 flex flex-col items-center gap-[32px] sm:items-start">
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -15,12 +16,12 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
+        <ol className="list-inside list-decimal text-center font-mono text-sm/6 sm:text-left">
           <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
+            Get started by editing{' '}
+            <code className="rounded bg-black/[.05] px-1 py-0.5 font-mono font-semibold dark:bg-white/[.06]">
               src/app/page.tsx
-            </code>{" "}
+            </code>{' '}
             .
           </li>
           <li className="tracking-[-.01em]">
@@ -28,9 +29,9 @@ export default function Home() {
           </li>
         </ol>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+        <div className="flex flex-col items-center gap-4 sm:flex-row">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+            className="bg-foreground text-background flex h-10 items-center justify-center gap-2 rounded-full border border-solid border-transparent px-4 text-sm font-medium transition-colors hover:bg-[#383838] sm:h-12 sm:w-auto sm:px-5 sm:text-base dark:hover:bg-[#ccc]"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -45,7 +46,7 @@ export default function Home() {
             Deploy now
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
+            className="flex h-10 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-4 text-sm font-medium transition-colors hover:border-transparent hover:bg-[#f2f2f2] sm:h-12 sm:w-auto sm:px-5 sm:text-base md:w-[158px] dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -58,5 +59,5 @@ export default function Home() {
         </div>
       </main>
     </div>
-  );
+  )
 }
