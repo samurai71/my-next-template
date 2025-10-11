@@ -33,5 +33,6 @@
   "eslint.run": "onType",
   "eslint.format.enable": false,
   "prettier.requireConfig": true,
-  "typescript.tsdk": "node_modules\\typescript\\lib"
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "cSpell.words": ["cmdk", "trivago", "turbopack", "vaul"]
 }
