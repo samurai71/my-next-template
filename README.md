@@ -1,11 +1,3 @@
-<!-- <div align="center" id="top">
-  <img src="./.github/app.gif" alt="My Next Template" />
-
-&#xa0; -->
-
-  <!-- <a href="https://mynexttemplate.netlify.app">Demo</a> -->
-<!-- </div> -->
-
 <h1 align="center">My Next Template</h1>
 
 <p align="center">
@@ -33,7 +25,7 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#dart-about">About</a> &#xa0; | &#xa0;
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -46,22 +38,29 @@
 
 ## :dart: About
 
-Describe your project
+I have been creating a few NextJs 15 projects lately, and having to go though the same process of setup. So this is my custom starter template for NextJs 15, tailwindv4, typescript, eslint and prettier and more.
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: NextJs 15;\
+:heavy_check_mark: Typescript;\
+:heavy_check_mark: Tailwind version 4;\
+:heavy_check_mark: Eslint;\
+:heavy_check_mark: Prettier;\
+:heavy_check_mark: Shadcn UI;\
+:heavy_check_mark: Next Themes;\
+:heavy_check_mark: Tailwind Prettier;\
+:heavy_check_mark: Husky;\
+:heavy_check_mark: lint-staging;\
+:heavy_check_mark: Commitlint;
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Nextjs 15](https://nextjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements
@@ -78,10 +77,10 @@ $ git clone https://github.com/samurai71/my-next-template
 $ cd my-next-template
 
 # Install dependencies
-$ yarn
+$ pnpm
 
 # Run the project
-$ yarn start
+$ pnpm dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
