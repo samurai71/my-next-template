@@ -7,7 +7,7 @@ function Privacy() {
     <div className="grid min-h-screen grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 p-8 pb-20 font-sans sm:p-20">
       <ModeToggle />
 
-      <main className="container mx-auto w-5xl px-3 py-3">
+      <main className="container mx-auto px-3 py-3 sm:w-3xs lg:w-5xl">
         <h2 className="pb-2">Privacy Policy for [Your Website Name]</h2>
 
         <p className="pb-2">Last updated: [Date]</p>
