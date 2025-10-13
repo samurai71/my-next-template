@@ -15,6 +15,7 @@ export default function Copyright() {
     <p className="text-center font-mono text-sm">
       © {year} Mark Landeryou. All rights reserved.{' '}
       <Link href="privacy-policy">Privacy Policy</Link>{' '}
+      <Link href="terms">| Terms and Conditions</Link>
     </p>
   )
 }
