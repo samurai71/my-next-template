@@ -125,7 +125,7 @@
   h4,
   h5,
   h6 {
-    @apply font-serif font-bold;
+    @apply pb-3 font-serif font-bold;
   }
   h1 {
     @apply text-5xl;
@@ -135,5 +135,8 @@
   }
   h3 {
     @apply text-2xl;
+  }
+  p {
+    @apply pb-3;
   }
 }
