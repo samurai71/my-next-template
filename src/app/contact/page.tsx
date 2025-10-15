@@ -1,5 +1,5 @@
 import MyForm from '@/components/contactform'
-import { ModeToggle } from '@/components/mode-toogle'
+import { ModeToggle } from '@/components/mode-toggle'
 
 export default function Contact() {
   return (
