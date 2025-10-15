@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ModeToggle } from '@/components/mode-toogle'
+import { ModeToggle } from '@/components/mode-toggle'
 
 function Privacy() {
   return (

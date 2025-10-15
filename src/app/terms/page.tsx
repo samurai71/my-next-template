@@ -1,4 +1,4 @@
-import { ModeToggle } from '@/components/mode-toogle'
+import { ModeToggle } from '@/components/mode-toggle'
 
 export default function TermsAndConditions() {
   return (
