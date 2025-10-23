@@ -33,5 +33,6 @@
   ],
   "eslint.run": "onType",
   "eslint.format.enable": false,
-  "prettier.requireConfig": true
+  "prettier.requireConfig": true,
+  "cSpell.words": ["oklch"]
 }
