@@ -34,5 +34,6 @@
   "eslint.run": "onType",
   "eslint.format.enable": false,
   "prettier.requireConfig": true,
+  "cSpell.words": ["oklch", "Shadcn", "trivago", "vaul"]
   "cSpell.words": ["oklch"]
 }
