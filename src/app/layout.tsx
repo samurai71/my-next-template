@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 
+// import { Footer } from '@/components/Footer'
 import { ThemeProvider } from '@/components/providers/theme-provider'
 import '@/styles/globals.css'
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        {/* <Footer /> */}
       </body>
     </html>
   )
