@@ -63,6 +63,7 @@
     "@storybook/addon-vitest": "10.0.8",
     "@storybook/nextjs-vite": "^10.0.8",
     "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/typography": "^0.5.19",
     "@trivago/prettier-plugin-sort-imports": "^6.0.0",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.6",
