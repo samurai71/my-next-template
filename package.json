@@ -8,6 +8,7 @@
     "start": "next start",
     "preview": "next build && next start",
     "lint": "eslint",
+    "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "storybook": "storybook dev -p 6006",
